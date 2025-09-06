@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sammy • Portfolio</title>
+  <meta name="description" content="Sammy — Data Scientist, Web Developer & Graphics Designer">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts.js"></script>
+
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__inner container">
+      <img style="width: 50px; height: 50px;" src="./images/1.png" alt="">
+      <!-- <a class="brand"  href="#home">Sammy</a> -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="links" id="links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>SAMUELyy<span class="accent">.</span></h1>
+          <h2 class="subtitle">Data Scientist · Web Developer · Graphics Designer</h2>
+          <p class="lead">I build useful digital solutions using <strong>Python, Django, HTML, and CSS.</strong>
+            I also specialize in <strong>SQL, MongoDB, web scraping, NumPy, and Pandas</strong> for data manipulation,
+            and design graphics that capture attention</p>
+          <div class="cta">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--ghost">Hire Me</a>
+          </div>
+        </div>
+        <div class="hero__art">
+          <div class="glow glow--1"></div>
+          <div class="glow glow--2"></div>
+          <img src="./images/real head shot.png" alt="Sammy portrait" />
+        </div>
+      </div>
+      <a href="#about" class="scroll">scroll</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section">
+      <div class="container two">
+        <div class="card">
+          <h3 style="font-weight: bolder;">About Me</h3>
+          <p>
+            I'm Oladipupo Samuel, a Data Science student at SQI College of ICT. I love turning ideas into working
+            software,
+            focusing on <strong>Python</strong>, <strong>Django</strong>,<strong>SQL</strong>,<strong>Mangobd</strong>,
+            <strong>Web-scrapping</strong>, <strong>Numpy</strong>, <strong>Pandas</strong> and modern lightweight UIs.
+          </p>
+          <p>I also do <strong>graphics design</strong>, blending functionality with visuals that stand out.</p>
+          <div class="badges">
+            <span>Python</span><span>Django</span><span>Mangodb</span> <span>Web-scrapping</span><span>Numpy</span>
+            <span>MySQL</span><span>Data Science</span><span>HTML</span><span>CSS</span> <span>Graphic
+              Design</span><span>bootstrap</span><span>website design</span> <span>backend development</span>
+          </div>
+        </div>
+        <div class="card highlights">
+          <h3 style="font-weight: bolder;">Highlights</h3>
+          <ul>
+
+            <li>📊 Digital Cooperative Management System (HTML, CSS, Flask, MySQL)</li>
+            <li>🛍️ Adix Collection (HTML, CSS, Bootstrap)</li>
+            <!-- <li>🧾 Invoice Generator for Freelancers (Flask)</li> -->
+            <li>🛒 Josh Tech Fabrics eCommerce (HTML, CSS, Python, Django)</li>
+            <li>📑 Cloning of SLA (She Leads Africa) (HTML, CSS, Bootstrap)</li>
+            <li>💻 Building of Samstack (Top-notch tech solutions) (HTML, CSS, Bootstrap, Formsubmit)</li>
+            <li>🛍️ Cloning of Jumia (HTML, CSS, Bootstrap)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h1 class="center" style="margin-bottom: 20px; font-weight: bolder;">Skills</h1>
+        <div class="chips">
+          <span>Python</span><span>Data Science</span><span>Django</span><span>Flask</span><span>Web
+            Scraping</span><span>Numpy</span>
+          <span>REST APIs</span><span>MySQL</span><span>Pandas</span><span>HTML</span><span>CSS</span><span>Graphic
+            Design</span><span>Bootstrap</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h1 class="center" style="font-weight: bolder; margin-bottom: 20px;">Projects</h1>
+
+        <div class="grid" id="projectGrid">
+          <!-- Always visible -->
+          <!-- <article class="project">
+        <div class="thumb"><img src="./images/capture3.jpg" alt="Cooperative Management System" style="cursor: pointer;"></div>
+        <div class="meta">
+          <h5 style="font-weight: bolder;">Cooperative Management System</h5>
+          <p style="font-size: 12px;">Manage members, loans, savings, and repayments with an admin dashboard.</p>
+          <div class="tags"><span>Flask</span><span>MySQL</span><span>Html</span><span>Css</span>  </div>
+        </div>
+      </article> -->
+          <article class="project">
+            <div class="thumb">
+              <a href="https://sammy001md.pythonanywhere.com/"> <img src="./images/18.08.2025_15.41.57_REC.png"
+                  alt="Josh Tech Fabrics"></a>
+            </div>
+            <div class="meta">
+              <h4 style="font-weight: bolder;">Josh Tech Fabrics</h4>
+              <p style="font-size: 12px;">Django eCommerce with category pages and admin uploads.</p>
+              <div class="tags">
+                <span>Django</span><span>python</span><span>Html</span><span>Css</span><span>javascript</span>
+              </div>
+            </div>
+          </article>
+          <article class="project">
+            <div class="thumb">
+              <a href="https://adix-website.vercel.app/"><img src="./images/18.08.2025_15.43.11_REC.png"
+                  alt="Adix collection"></a>
+            </div>
+            <div class="meta">
+              <h4 style="font-weight: bolder;">Adix Collection</h4>
+              <p style="font-size: 12px;">Discover quality clothes, necklaces, Perfume, bags & more. Elevate your style
+                with Adix Collections.</p>
+              <div class="tags"><span>Html</span><span>Css</span> <span>Bootstrap</span></div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="thumb">
+              <a href="https://samstack.vercel.app/"> <img src="./images/15.05.2025_14.55.20_REC.png"
+                  alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>Samstack</h4>
+              <p>All-in-one platform for managing tasks, projects, and team collaboration.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span> <span>form-submit</span></div>
+            </div>
+          </article>
+
+
+
+          <!-- Hidden initially -->
+
+          <article class="project extra">
+            <div class="thumb"><img src="./images/capture3.jpg" alt="Cooperative Management System"
+                style="cursor: pointer;"></div>
+            <div class="meta">
+              <h5 style="font-weight: bolder;">Cooperative Management System</h5>
+              <p style="font-size: 12px;">Manage members, loans, savings, and repayments with an admin dashboard.</p>
+              <div class="tags"><span>Flask</span><span>MySQL</span><span>Html</span><span>Css</span> </div>
+            </div>
+          </article>
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href="https://second-test-beta.vercel.app/">
+                <img src="./images/i.png" alt="SLA (She Leads Africa)"></a>
+            </div>
+            <div class="meta">
+              <h4>SLA</h4>
+              <p>One of my responsive live coding test </p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+            </div>
+          </article>
+          <article class="project extra">
+            <div class="thumb">
+              <a href="https://my-jumia-website.vercel.app/"> <img src="./images/j.png" alt="jumia clone"></a>
+            </div>
+            <div class="meta">
+              <h4>Jumia Clone</h4>
+              <p>E-commerce platform clone built with HTML, CSS, and Bootstrap.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+            </div>
+          </article>
+
+
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href="https://samflickr.vercel.app/"> <img src="./images/flickr.png" alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>Flickr</h4>
+              <p>A clone of Flickr’s photo carousel for browsing and sharing images.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span> </div>
+            </div>
+          </article>
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href=""><img src="./images/05.09.2025_17.04.57_REC.png" alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>YouTube</h4>
+              <p>A clone of YouTube’s video sharing platform for browsing and sharing videos.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span> </div>
+            </div>
+          </article>
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href=""> <img src="./images/05.09.2025_17.08.06_REC.png" alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>Piggyvest</h4>
+              <p>A digital banking platform for managing savings and investments.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span> </div>
+            </div>
+          </article>
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href="https://my-festava-live-ass.vercel.app/"> <img src="./images/19.05.2025_09.14.19_REC.png"
+                  alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>Festiva Live</h4>
+              <p>cloned Festiva Live showcasing live events and music festivals</p>
+              <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </article>
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href="https://my-first-html-test.vercel.app/"> <img src="./images/18.03.2025_15.26.01_REC.png"
+                  alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>Portfolio</h4>
+              <p>A life coding test, cloning someone portfolio sections</p>
+              <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </article>
+
+          <article class="project extra">
+            <div class="thumb">
+              <a href=""> <img src="./images/19.05.2025_09.19.02_REC.png" alt="Samstack"></a>
+            </div>
+            <div class="meta">
+              <h4>Piggyvest</h4>
+              <p>A digital banking platform for managing savings and investments.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+
+      <!-- Show More / Less Button -->
+      <div class="center" style="margin-top: 20px;">
+        <button id="toggleProjects">Show More</button>
+      </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- CONTACT -->
+
+    <!-- <section id="contact" class="contact section">
+      <div class="container">
+        <h3 class="center" style="font-weight: bolder;">Contact</h3>
+        <p class="center muted" style="margin-bottom: 50px;">Open to freelance and collaborations.</p>
+        <div class="contact__grid"> -->
+
+          <!-- Contact Form -->
+          <!-- <form class="card form" action="https://formsubmit.co/samueltoluwani169@gmail.com" method="POST"> -->
+
+            <!-- Hidden fields -->
+            <!-- <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://my-portfolio-website-five-roan.vercel.app//thank_you.html">
+
+
+            <div class="row">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+            </div>
+            <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+            <button class="btn btn--primary" type="submit">Send</button>
+          </form> -->
+
+
+          <!-- Contact Info -->
+          <!-- <div class="card info">
+            <ul class="links">
+              <li>
+                <a href="https://www.facebook.com/profile.php?id=100084670006794" target="_blank">
+                  <i class="fab fa-facebook"></i> Facebook
+                </a>
+              </li>
+              <li>
+                <a href="mailto:samueltoluwani169@gmail.com">
+                  <i class="fas fa-envelope"></i> Gmail
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/sammy001-cmd" target="_blank">
+                  <i class="fab fa-github"></i> Git-Hub
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/oladipupo-samuel-2b44b737b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank">
+                  <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/2348089088952" target="_blank">
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/horlardipupo.toluwani?igsh=MWFxandia3dlNGox">
+                  <i class="fab fa-instagram"></i> Instagram
+                </a>
+              </li>
+            </ul>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+    <section id="contact" class="contact section">
+  <div class="container">
+    <h3 class="center" style="font-weight: bolder;">Contact</h3>
+    <p class="center muted" style="margin-bottom: 50px;">Open to freelance and collaborations.</p>
+    <div class="contact__grid">
+      <form class="card form">
+        <!-- Your form fields here -->
+        <div class="row">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+        </div>
+        <textarea placeholder="Your message" rows="5" required></textarea>
+        <button class="btn btn--primary" type="submit">Send</button>
+      </form>
+      <div class="card info">
+        <ul class="contact-links">
+          <li><a href="https://www.facebook.com/profile.php?id=100084670006794" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href="mailto:samueltoluwani169@gmail.com"><i class="fas fa-envelope"></i> samueltoluwani169@gmail.com</a></li>
+          <li><a href="https://github.com/sammy001-cmd" target="_blank"><i class="fab fa-github"></i> sammy001-cmd</a></li>
+          <li><a href="https://linkedin.com/in/oladipupo-samuel-2b44b737b" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://wa.me/2348089088952" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Sammy . portfolio . website </p>
+      </div>
+    </footer>
+
+    <script>
+      // Auto update footer year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
